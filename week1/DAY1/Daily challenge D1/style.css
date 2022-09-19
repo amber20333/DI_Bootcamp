@@ -1,0 +1,64 @@
+
+
+nav {
+	position: relative;
+	margin-top: 0px;
+	top: 0px;
+	
+}
+
+li {
+	float: left;
+
+	display: inline-block;
+}
+
+ul {
+	 list-style-type: none;
+		position: relative; 
+		margin: 0;
+		padding: 10px;
+		overflow: hidden;
+		background-color: black;
+
+
+}
+
+ 
+li a {
+	color: white;
+	text-align: right;
+	padding: 2px 15px;
+	text-decoration: none;
+}
+
+
+
+body {
+    background-image: url('Thor4.pjg.jfif') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+}
+
+ul {
+display: flex;
+justify-content: flex-end;
+}
+
+.chapter{
+	padding: 50px;
+}
+
+/* Main Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align:center;
+ }

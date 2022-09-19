@@ -1,0 +1,17 @@
+
+input[type="checkbox"]:checked +label {
+    color: black;
+    background-color: blue;
+    border :none; 
+}
+
+
+
+/* inside the elememt that has the id of fruit
+the option with the value of grapes 
+should be yellow */
+
+#fruit option[value="grapes"] {
+    background-color:  yellow;
+  }
+  

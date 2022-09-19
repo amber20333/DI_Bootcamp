@@ -1,0 +1,49 @@
+h1{
+    color: red;
+    font-style : italic ; 
+    margin-left: 40px;
+    margin: 0 0 50px 0;
+}
+
+p{
+    color: blue;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    border-top-style: solid ;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: black;
+    width: 320px;
+    padding: 100px;
+    margin: 20px;
+  }
+
+
+body {
+    background-color: white;
+}
+
+.first{
+    background-color : blue ;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.second {
+    background-color : white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.third {
+    background-color : red ;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}

@@ -1,0 +1,28 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align:center;
+ }
+
+
+ nav {
+	background-color: pink;
+	margin: 0;
+	top: 0px;
+	margin-top: 0;
+	height: 100;
+
+	ul{
+
+
+	}
+	
+ }
+
+ li{
+	display: inline-block;
+ }
