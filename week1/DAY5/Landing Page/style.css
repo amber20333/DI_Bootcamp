@@ -1,0 +1,51 @@
+nav {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    text-decoration: right ;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.ambernav{
+    justify-content: flex-end;
+    
+}
+ 
+ body {
+    background-image: url(children.jpeg);
+    background-repeat: no-repeat ;
+    /* SI je ne met pas le cover cela ne va pas tout couvir */
+    background-size: cover;
+ }
+
+ .firstpage {
+    display: flex;
+    text-align: center;
+    text-decoration: center;
+ }
+
+ .Ambersection {
+    height : 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .bottom {
+    background-color: white;
+    padding: 40px; margin: 20px">
+    
+ }
+
+ 
+.Amberblock  div{
+    height: 500px;px;
+    width:260px;
+   /*je narrive pas a grandir mon block et a enlever le new */
+    } 
+    
+}
+ 

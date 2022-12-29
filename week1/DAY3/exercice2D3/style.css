@@ -1,0 +1,29 @@
+
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white ; 
+    background-color: rgb(34, 221, 221);
+    font-size: 4em;
+    width: 100%;
+    height: auto;
+}
+
+.sectionflex {
+    border: 3px solid red ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+   flex-wrap: wrap;
+   padding: 1vw;
+   gap: 3vh;
+} 
+
+.boxtwo {
+ align-self: center;
+ width: 50%;
+height: 30vh;
+}
+

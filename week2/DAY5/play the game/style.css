@@ -1,0 +1,66 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+ 
+
+
+body{
+    background-image: url('giphy\ \(1\).webp') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+
+    
+}
+
+h1 {
+color: rgb(228, 8, 8);
+align-items: center;
+}
+
+div {
+    top: 50%;
+        left: 50%;
+        width: 30em;
+        height: 18em;
+        margin-top: -9em;
+        margin-left: -15em;
+        position: fixed;
+}
+
+
+ 
+
+button {
+
+  appearance: button;
+  background-color: #d61818;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #0d0c0c;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}

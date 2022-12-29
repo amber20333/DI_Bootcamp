@@ -1,0 +1,19 @@
+{% extends 'partials/base.html' %}
+{% block content %}
+<h1>homepage</h1>
+<div class="row">
+    
+    {% for film in films %}
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{film.title}} BY {% for director in  film.director.all %}{{director.first_name}} {{director.last_name}}{% endfor %}</h5>
+          <h6 class="card-title">{{film.release_date}}</h6>
+          <h6 class="card-title">{% for category in  film.category.all %}{{category.name}}{% endfor %}</h6>
+          <h6 class="card-title">{{film.created_in_country}}</h6>
+          <a href="#" class="btn btn-primary">Go </a>
+        </div>
+      </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

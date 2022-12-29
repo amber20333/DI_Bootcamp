@@ -1,0 +1,38 @@
+div {
+   border: 2px solid black; 
+   gap: 1Opx;
+   justify-content: center;
+   margin-block: 40px;
+}
+
+body {
+    margin-block: 20px;
+}
+
+
+
+
+@media (min-width: 576px)  {
+
+    .container : columns: ;
+
+}
+
+
+@media (min-width: 768px) { 
+
+    .container2 : columns: ;
+ }
+
+
+
+@media (min-width: 992px) { 
+    .container2 : columns: ;
+}
+
+
+@media (min-width: 1200px) { 
+    .container2 : col: ;
+ }
+
+

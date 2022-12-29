@@ -1,0 +1,43 @@
+
+.section{ 
+    border: 1px black solid;
+    display: grid;
+
+    /* row c'est le bas et colum le haut )
+    4 ligne en vas et deux colone ) */
+
+    grid-template-rows: repeat (4 ,2fr)  ;
+    grid-template-columns:  1fr 2fr;
+     grid-gap: 2rem 1rem; ;
+     padding: 20px;
+
+}
+
+.box {
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+.boxred {
+    background-color: red;
+}
+
+.boxblue {
+    background-color: blue;
+    
+}
+
+.boxyellow {
+    /* reste sur la colone 1 mais s'étend jsq 2*/
+
+    background-color: yellow;
+    grid-column: 1 / span 2; 
+}
+
+
+
+
+ 
+
+ 

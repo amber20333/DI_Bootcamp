@@ -1,0 +1,26 @@
+.outer {
+    border: 1px solid blue;
+    margin: 5px;
+    display: grid;
+    /* 1 fr et le 2fr means deux collones mais trois car le 2em colone prend plus de tailles */
+    grid-template-columns: 1fr 2fr ;
+
+    /* cesr en ligne je controle la taille de mon block 
+    2fr et le double taille de mon 1fr et le 4 fr , 4 fois que le 1fr*/
+    
+    grid-template-rows: 1fr 2fr 3fr 4fr ;
+}
+
+
+.inner {
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.red {
+    background-color: red;
+}
+
+.inner7 {
+    grid-column: 1 / span 2 ;
+}

@@ -1,0 +1,53 @@
+body {
+	background: lightblue;
+	text-align: center;
+	padding: 0px 5px;
+
+	height: 100%;
+}
+
+nav {
+	position: relative;
+	margin-top: 0px;
+	top: 10px;
+}
+
+ul {
+	list-style-type: none;
+	position: relative;
+	margin-top: 0px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 26px 72px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+
+
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Main Footer */
+
+

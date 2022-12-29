@@ -1,0 +1,9 @@
+{% extends 'partials/base.html' %}
+{% block content %}
+<form method="POST">
+    {% csrf_token %} 
+    {{form.as_p}}
+    <!-- <button class=' btn-success' type="submit">Save</button> -->
+    <p><input type="submit" value="Add Film" /></p>
+</form>
+{% endblock %}

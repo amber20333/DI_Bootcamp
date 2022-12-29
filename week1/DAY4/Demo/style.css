@@ -1,0 +1,82 @@
+
+/*GENERAL CSS*/
+
+div {
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+}
+
+.greenbox {
+    background-color: #A4E6A4;
+}
+
+.purplebox {
+    background-color: #CEAAF0;
+}
+
+.pinkbox{
+    background-color: #F288D5;
+}
+
+.bluebox{
+    background-color: #438EEA;
+}
+
+.yellowbox{
+    background-color: #F4ED79;
+}
+
+.redbox{
+    background-color: #F8394F;
+}
+
+/* -------------------- */
+/* 2nd demonstration: Grid */
+
+/*on the parent*/
+.sectiongrid{
+    border: 1px solid black;
+    background-color:gainsboro;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 1.5fr 2fr 1fr;
+    /* row gap  column gap */
+    gap: 2rem 1rem;
+}
+
+.purple_g {
+    /* start at the row 1 and takes the space of 2 rows */
+    grid-row: 1 / span 2;
+    grid-column: 2;
+}
+
+.red_g {
+    grid-column: 1 / span 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*on the parent*/
+/* .sectiongrid{
+    border: 1px solid black;
+    background-color:gainsboro;
+    display: grid;
+    grid-template-rows: repeat(2,1fr) ;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem 3rem;
+}
+
+.green_g {
+    grid-column : in which column is starts/how many columns it takes
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+} */

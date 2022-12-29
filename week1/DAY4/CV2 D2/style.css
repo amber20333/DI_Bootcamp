@@ -1,0 +1,91 @@
+body{
+    display: block;
+    height:100%;
+    background: #fff;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt","liga","hist","onum","pnum";
+    font-size: 1rem;
+    color: #222;
+    font: inherit;
+}
+
+.main details {
+    padding: 25px 35px;
+    border-bottom: 2px solid #05bbcf;
+    background: #b7cae7;
+    display:block;
+  }
+
+
+  #headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
+  }  
+
+  .name {
+    float: left;
+  }
+
+
+  section {
+    border-top: 1px solid #dedede;
+    padding: 20px 0 0;
+  }
+
+  h1 {
+    font-family: "Gudea", helvetica, arial, sans-serif;
+    font-size: 0.89em;
+    color: #402caf;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    font-family: "Gudea", helvetica, arial, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: -2px;
+  }
+
+  p {
+        font-size: 80%;
+        font-style: italic;
+        margin-bottom: 3px;
+       
+
+      }
+
+    
+      .keySkills ul li {
+        margin-bottom: 3px;
+        
+      }
+
+      li {
+        list-style-type: none;
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+        margin-bottom: 20px;
+        font-size: 1em;
+        color: #444;
+        margin-bottom: 3px;
+      }
+
+      h2{
+        display: flex;
+        justify-content: center;
+        font: icon;
+      }
+
+      *{
+        {
+          border: 0;
+          font: inherit;
+          font-size: 100%;
+          margin: 0;
+          padding: 0;
+          vertical-align: baseline;
+        }
+      }
+ 
